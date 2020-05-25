@@ -1,3 +1,7 @@
 # Automating AWS with Python
 
-3 projects of AcloudGuru course: 1.Publish a website to S3 2.Notifications for Cloud Watch events 3.Analyse videos with Recognition
+Repository for the A Cloud Guru course *Automating AWS with Python*
+
+## 01-webotron
+
+webotron is a script that will sync a local directory to an s3 bucket, and optionally configure Route 53 and cloudFront as well.
