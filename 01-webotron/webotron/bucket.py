@@ -169,5 +169,6 @@ class BucketManager:
                     handle_directory(p)
                 if p.is_file():
                     self.upload_file(bucket, '/'.join(str(p).split('\\')), '/'.join(str(p.relative_to(root)).split('\\')))
+                    """if p.is_file(): upload_file(s3_bucket, str(p), str(p.relative_to(root)))"""
 
         handle_directory(root)
